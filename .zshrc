@@ -1,6 +1,6 @@
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/swdy/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -214,14 +214,14 @@ export ALL_PROXY=socks5://127.0.0.1:1086
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 export PATH=~/anaconda3/bin:$PATH
-__conda_setup="$('/Users/swdy/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('~/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
    eval "$__conda_setup"
 else
-   if [ -f "/Users/swdy/anaconda3/etc/profile.d/conda.sh" ]; then
-       . "/Users/swdy/anaconda3/etc/profile.d/conda.sh"
+   if [ -f "~/anaconda3/etc/profile.d/conda.sh" ]; then
+       . "~anaconda3/etc/profile.d/conda.sh"
    else
-       export PATH="/Users/swdy/anaconda3/bin:$PATH"
+       export PATH="~/anaconda3/bin:$PATH"
    fi
 fi
 unset __conda_setup
