@@ -151,6 +151,8 @@ alias cdr='cd ~/.config/ranger '
 alias ez='nvim ~/.zshrc'
 alias sz='source ~/.zshrc'
 
+# git
+alias gacp='git add .;git commit -m "auto commit";git push origin master'
 
 # leetcode
 alias lgp='leetcode show -gex -l python3'
